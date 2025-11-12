@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Solution</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <header>
@@ -19,7 +19,39 @@
         <li><a href="../../src/pages/quiz.html">Quiz</a></li>
         </ul>
     </nav>
-<h1>sobrenos</h1>
+    <div class="login-container">
+        <form id="cadastrar">
+            <span><strong>Registrar-se</strong></span>
+            <br>
+            <input type="text" name="nome" placeholder="Nome">
+            <br>
+            <input type="text" name="sobrenome" placeholder="Sobrenome">
+            <br>
+            <label for="aniversario"><strong>Data de Nascimento:</strong> </label>
+            <br>
+            <input type="date" name="aniversario">
+            <br>
+            <span><strong>Sexo:</strong></span>
+            <br>
+            <input type="radio" name="genero" value="m">
+            <span>Masculino</span>
+            <input type="radio" name="genero" value="f">
+            <span>Feminino</span>
+            <input type="radio" name="genero" value="o">
+            <span>Outro</span>
+            <br><br>
+            <input type="submit" value="Cadastrar" id="botao" class="botoes">
+        </form>
+        <form id="login">
+            <span><strong>Já tem uma conta? Faça login</strong></span>
+            <br><br>
+            <input type="email" name="email" placeholder="E-mail">
+            <br><br>
+            <input type="password" name="senha" placeholder="Senha">
+            <br><br>
+            <input type="submit" value="Entrar" id="botao" class="botoes">
+        </form>
+    </div>
 </body>
 <footer>
     <div class="footer-container">

@@ -178,6 +178,11 @@ footer p {
     color: oklch(56.138% 0.09155 186.22 / 0.705);
 }
 
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
 .quiz-option {
   display: block;
   margin: 10px 0;
@@ -194,7 +199,7 @@ footer p {
 }
 
 .quiz-question {
-  border: none;
+  padding: 15px;
   margin-bottom: 30px;
 }
 
@@ -244,3 +249,57 @@ nav{
   transition: 0.3s ease;
 }
 
+#cadastrar {
+    background-color: rgb(109, 148, 143);
+    padding: 20px;
+    width: 270px;
+    margin: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+}
+
+#login{
+    background-color: rgb(109, 148, 143);
+    padding: 20px;
+    width: 270px;
+    margin: 50px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+} 
+
+input[type="text"],
+input[type="date"],
+input[type="submit"],
+input[type="email"],
+input[type="password"] {
+    /* Seleciona todos os inputs ao mesmo tempo */
+    width: 100%;
+    /* faz o input preencher todo o formulário */
+    padding: 5px;
+    /* espaço interno do input 5px  */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    /* Espaço de um imput para outro em cima e embaixo */
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    /* tira a borda do botão */
+    border: none;
+    /* deixa o cursor no formato de clicavél  */
+    cursor: pointer;
+}
+.login-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    gap: 50px; 
+    margin-left: 590px;
+    margin-top: 20px;
+}
