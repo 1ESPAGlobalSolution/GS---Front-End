@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+    padding: 35px;
+    font-size: 26px;
+    text-align: center;
+    color: oklch(56.138% 0.09155 186.22 / 0.705);
+}
+
+.fundoTexto {
+    background-color: oklch(56.138% 0.09155 186.22 / 0.705);
+    border-radius: 15px;
+    margin: 0px 40px 40px 40px;
+    width: 1200px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.imgcentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div p{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.texto::first-letter{
+    font-size: 25px;
+    color: rgb(92, 92, 92);
+}

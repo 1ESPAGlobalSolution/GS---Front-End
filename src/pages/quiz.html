@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Solution</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<header>
+    <a href="../../index.html"><h1>Talent Link</h1></a>
+    <hr class="primeiralinha">
+</header>
+<body>
+    <nav>
+        <ul class="menu">
+        <li><a href="../../src/pages/sobrenos.html">Sobre Nós</a></li>
+        <li><a href="../../src/pages/login.html">Login/Registrar-se</a></li>
+        <li><a href="../../src/pages/amigos.html">Amigos</a></li>
+        <li><a href="../../src/pages/quiz.html">Quiz</a></li>
+        </ul>
+    </nav>
+<h2 id="t1">Quiz</h2>
+<form id="quiz-form">
+    <p class="quiz-intro">
+        Esse quiz tem o objetivo de descobrir a sua profissão ideal. Responda as perguntas abaixo escolhendo a alternativa que mais combina com você:
+    </p>
+<!-- Pergunta 1 -->
+    <fieldset>
+        <legend class="quiz-question">Pergunta 1: No ambiente de trabalho, quais desses combinam mais com seu perfil?</legend>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta1" value="logico"> Fit Cultural - Prezo um ambiente saudável acima de tudo.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta1" value="criativo"> Salários altos - Prezo um bônus financeiro.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta1" value="social"> Aprendizado no trabalho - Prefiro focar no conhecimento.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta1" value="pratico"> Carreira a longo prazo - Gosto de planos a longo prazo.
+        </label>
+    </fieldset>
+    <!-- Pergunta 2 -->
+    <fieldset>
+        <legend class="quiz-question">Pergunta 2: Como você prefere receber feedback?</legend>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta2" value="direto"> Comentários direto no documento ou Figma com exemplos.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta2" value="rapido"> Call de 10 min pra alinhar visão e referências.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta2" value="veloz"> Mensagem no WhatsApp em bullets.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta2" value="agil"> Primeiro o que funcionou, depois ajustes.
+        </label>
+    </fieldset>
+    <!-- Pergunta 3 -->
+    <fieldset>
+        <legend class="quiz-question">Pergunta 3: Em time, qual sua habilidade hoje?</legend>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta3" value="calmo"> Traduzir briefing confuso em roteiro claro.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta3" value="dinamico"> Deixar visual/UI redondo e consistente.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta3" value="intenso"> Olhar de performance: testar hooks e ler métricas.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta3" value="estrategico"> Orquestrar pessoas/processos pra tudo fluir.
+        </label>
+    </fieldset>
+    <!-- Pergunta 4  -->
+    <fieldset>
+        <legend>Pergunta 4: Quando um prazo aperta e algo dá errado, você…</legend>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta4" value="estabilidade"> Reorganiza prioridades e tenta resolver o que dá.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta4" value="liberdade"> Pede ajuda ou redistribui tarefas.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta4" value="impacto"> Assume e entrega o melhor possível no tempo que resta.
+        </label>
+        <label class="quiz-option">
+            <input type="radio" name="pergunta4" value="inovacao"> Respira fundo e tenta manter a calma, mesmo que saia imperfeito.
+        </label>
+    </fieldset>
+    <br>
+    <button type="submit" id="enviar">Enviar Respostas</button>
+
+</form>
+
+<div id="resultado-container"></div>
+
+</body>
+<footer>
+    <div class="footer-container">
+    <div class="footer-section">
+      <h3>Talent Link</h3>
+      <p>Aqui você pode ser mais.</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Informações</h3>
+      <p><strong>Email:</strong> atendimento@fiap.com.br</p>
+      <p><strong>Telefone:</strong> (11) 3385-8010</p>
+    </div>
+
+    <div class="footer-section">
+      <h3>Nos siga no Instagram</h3>
+      <div class="social-icons">
+          <a href="https://www.instagram.com/gonzales_jpg?igsh=Ymt5cWQxemt5NWl5&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i> gonzales_jpg</a><br>
+          <a href="https://www.instagram.com/arditoo.g/" target="_blank"><i class="fab fa-instagram"></i> arditoo.g</a><br>
+          <a href="https://www.instagram.com/sarracinee/" target="blank"><i class="fab fa-instagram"></i> sarracinee</a><br>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; FIAP | Todos os direitos reservados</p>
+  </div>
+</footer>
+<script src="../../src/js/script.js"></script>
+<script src="../../src/js/quiz.js"></script>
+</html>

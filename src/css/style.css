@@ -1,0 +1,246 @@
+@import url("./animations.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(191, 214, 216, 0.466);
+}
+
+header {
+    background-color: oklch(56.138% 0.09155 186.22 / 0.705);
+}
+h1 {
+    color: rgb(255, 255, 255);
+    padding: 30px 0;
+    text-align: center;
+
+}
+.primeiralinha {
+    height: 3px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px 0;
+    background-color: oklch(56.138% 0.09155 186.22 / 0.705)
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  transition: 0.4s ease-in-out;
+}
+
+#t1 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: oklch(56.138% 0.09155 186.22 / 0.705);
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+header a {
+    text-decoration: none;
+}
+footer {
+  background-color: oklch(56.138% 0.09155 186.22 / 0.705);
+  color: #e0e0e0;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+  transition: 0.4s;
+  width: 100%;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  
+}
+
+.footer-section {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.footer-section h3, p {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.social-icons a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+.social-icons a i {
+  margin-right: 6px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ffffff;
+  padding-top: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+footer p {
+  color: #ffffff;
+}
+/* Fundo escuro ao abrir o pop-up */
+#popUp {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* Caixa central */
+#popUpContent {
+  background-color: #ffffff;
+  color: #222; /* 🔹 texto visível e contrastante */
+  padding: 25px 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  position: relative;
+}
+
+/* Título (nome do candidato) */
+#popUpContent h2 {
+  color: oklch(56.138% 0.09155 186.22 / 0.705);
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+/* Descrição (infoCandidato) */
+#popUpContent p {
+  color: #333; 
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Botão de fechar (X) */
+#closeBtn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #444;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.quiz-intro {
+    text-align: center;
+    margin: 40px 20px;
+    font-size: larger;
+    color: oklch(56.138% 0.09155 186.22 / 0.705);
+}
+
+.quiz-option {
+  display: block;
+  margin: 10px 0;
+  background-color: oklch(56.138% 0.09155 186.22 / 0.705);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.quiz-option input {
+  margin-right: 10px;
+}
+
+.quiz-question {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.quiz-question legend {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#quiz-form {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: rgba(191, 214, 216, 0.466);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#enviar {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: oklch(56.138% 0.09155 186.22 / 0.705);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+nav{
+  top: 0;
+  position: sticky;
+  z-index: 999;
+}
+
+#botao{
+  color: rgb(255, 255, 255);
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color:  oklch(56.138% 0.09155 186.22 / 0.705);
+  transition: 0.3s ease;
+}
+
