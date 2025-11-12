@@ -42,3 +42,13 @@
   transform: scale(1.1);
 
 }
+
+#btnRecomendar:hover {
+  background-color: #1449db98;
+  transform: scale(1.1);
+}
+
+#btnMensagem:hover {
+  background-color: #9c68ac;
+  transform: scale(1.1);
+}

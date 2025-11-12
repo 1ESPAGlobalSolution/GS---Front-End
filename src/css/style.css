@@ -304,3 +304,51 @@ input[type="submit"] {
     margin-left: 590px;
     margin-top: 20px;
 }
+
+
+/* TESTE
+/* TESTE
+/* TESTE
+/* TESTE */
+
+#slideshow {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #68ac92;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 40px auto
+  
+}
+
+#slideshow h2 {
+  margin-bottom: 10px;
+}
+
+#slideshow ul {
+  margin-left: 20px;
+}
+
+#acoes button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 2px auto;
+}
+
+#btnRecomendar {
+  background-color: #3496eb;
+  color: #fff;
+  margin: 20px 300px 40px 0;
+  display: block;
+}
+
+#btnMensagem {
+    background-color: #7768ac;
+    color: #fff;
+    margin: 20px 0 40px 300px;
+    display: block;
+}

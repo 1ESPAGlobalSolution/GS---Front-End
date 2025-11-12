@@ -26,3 +26,4 @@ if (profissional) {
   // Caso o nome não exista
   container.innerHTML = `<p style="text-align:center; margin-top:50px;">Profissional não encontrado.</p>`;
 }
+
