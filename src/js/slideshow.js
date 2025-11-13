@@ -1,6 +1,6 @@
 let slides = [
     `
-    <h2>Informações pessoas e acadêmicas</h2>
+    <h2>Informações pessoais e acadêmicas</h2>
     <h3><strong>Nome: Henrique Bayer</strong></h3>
     <br>
     <p><strong>Idade:</strong> 22 anos</p>
@@ -9,7 +9,7 @@ let slides = [
     <p><strong>Contato:</strong> bayerrr@email.com</p>
     `,
     `
-    <h2>Informações pessoas e acadêmicas</h2>
+    <h2>Informações pessoais e acadêmicas</h2>
     <h3><strong>Nome: Gyovanna da Silva</strong></h3>
     <br>
     <p><strong>Idade:</strong> 21 anos</p>
@@ -18,7 +18,7 @@ let slides = [
     <p><strong>Contato:</strong> gigica@email.com</p>
     `,
     `
-    <h2>Informações pessoas e acadêmicas</h2>
+    <h2>Informações pessoais e acadêmicas</h2>
     <h3><strong>Nome: Felipe Menezes</strong></h3>
     <br>
     <p><strong>Idade:</strong> 36 anos</p>
@@ -27,7 +27,7 @@ let slides = [
     <p><strong>Contato:</strong> fmenezes_@email.com</p>
     `,
     `
-    <h2>Informações pessoas e acadêmicas</h2>
+    <h2>Informações pessoais e acadêmicas</h2>
     <h3><strong>Nome: Catarina Sanchez</strong></h3>
     <br>
     <p><strong>Idade:</strong> 27 anos</p>
@@ -36,7 +36,7 @@ let slides = [
     <p><strong>Contato:</strong> cathsanchez@email.com</p>
     `,
     `
-    <h2>Informações pessoas e acadêmicas</h2>
+    <h2>Informações pessoais e acadêmicas</h2>
     <h3><strong>Nome: Livia Pereira</strong></h3>
     <br>
     <p><strong>Idade:</strong> 29 anos</p>
@@ -45,7 +45,7 @@ let slides = [
     <p><strong>Contato:</strong> lilipereira@email.com</p>
     `,
     `
-    <h2>Informações pessoas e acadêmicas</h2>
+    <h2>Informações pessoais e acadêmicas</h2>
     <h3><strong>Nome: Matheus Albergaria</strong></h3>
     <br>
     <p><strong>Idade:</strong> 47 anos</p>
@@ -54,7 +54,7 @@ let slides = [
     <p><strong>Contato:</strong> albergaria.matheus@email.com</p>
     `,
     `
-    <h2>Informações pessoas e acadêmicas</h2>
+    <h2>Informações pessoais e acadêmicas</h2>
     <p><strong>Nome: Larissa Camargo</strong></p>
     <br>
     <p><strong>Idade:</strong> 40 anos</p>
