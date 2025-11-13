@@ -5,7 +5,7 @@ let slides = [
     <br>
     <p><strong>Idade:</strong> 22 anos</p>
     <p><strong>Soft Skill:</strong> Didático</p>
-    <p><strong>Formação:</strong> Ciência da Computação - PUC-SP</p>
+    <p><strong>Formação:</strong> Pedagogia - PUC-SP</p>
     <p><strong>Contato:</strong> bayerrr@email.com</p>
     `,
     `
@@ -32,7 +32,7 @@ let slides = [
     <br>
     <p><strong>Idade:</strong> 27 anos</p>
     <p><strong>Soft Skill:</strong> Autoconfiança</p>
-    <p><strong>Formação:</strong> Geologia - VUNESP</p>
+    <p><strong>Formação:</strong> Jornalismo - VUNESP</p>
     <p><strong>Contato:</strong> cathsanchez@email.com</p>
     `,
     `
@@ -41,7 +41,7 @@ let slides = [
     <br>
     <p><strong>Idade:</strong> 29 anos</p>
     <p><strong>Soft Skill:</strong> Resolução de problemas</p>
-    <p><strong>Formação:</strong> Direito - FGV</p>
+    <p><strong>Formação:</strong> Veterinária - FGV</p>
     <p><strong>Contato:</strong> lilipereira@email.com</p>
     `,
     `
@@ -50,7 +50,7 @@ let slides = [
     <br>
     <p><strong>Idade:</strong> 47 anos</p>
     <p><strong>Soft Skill:</strong> Inteligência Emocional</p>
-    <p><strong>Formação:</strong> Economia - FECAP</p>
+    <p><strong>Formação:</strong> Ciências Contábeis - FECAP</p>
     <p><strong>Contato:</strong> albergaria.matheus@email.com</p>
     `,
     `
@@ -63,22 +63,14 @@ let slides = [
     <p><strong>Contato:</strong> laricamrg0203@email.com</p>
     `
 ];
-let tempo = 3500; //3 segundos
+// 3 segundos de delay
+let tempo = 3500; 
 
 let i = 0;
 
-// function slideShow(){ 
-//     document.getElementById("slide").src=slides[i];
-//     i++;
-//     if( i>= slides.length){
-//         i=0;
-//     }
-//     setTimeout(slideShow, tempo);
-// }
-
 function slideShow() {
   const slideEl = document.getElementById("slideshow");
-  slideEl.innerHTML = slides[i];   // aqui trocamos o conteúdo
+  slideEl.innerHTML = slides[i];   // aqui troca o conteúdo
 
   i++;
   if (i >= slides.length) {

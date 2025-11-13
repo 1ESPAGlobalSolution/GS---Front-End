@@ -11,8 +11,37 @@ body{
 }
 
 header {
-    background-color: oklch(56.138% 0.09155 186.22 / 0.705);
+  background-color: oklch(56.138% 0.09155 186.22 / 0.705);
 }
+
+/* body div p {
+  color: #53947b;
+  width: 850px;
+  background-color: oklch(77.004% 0.0649 189.7 / 0.158);
+  border-radius: 8px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  border: dashed 2px #68ac92;
+  font-size: 20px;
+} */
+
+
+.inicial {
+  color: #53947b;
+  width: 850px;
+  background-color: oklch(77.004% 0.0649 189.7 / 0.158);
+  border-radius: 8px;
+  margin: 20px auto;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  border: dashed 2px #68ac92;
+  font-size: 20px;
+  padding-top: 6px;
+}
+
 h1 {
     color: rgb(255, 255, 255);
     padding: 30px 0;
@@ -28,7 +57,7 @@ h1 {
     justify-content: center;
     gap: 25px;
     padding: 15px 0;
-    background-color: oklch(56.138% 0.09155 186.22 / 0.705)
+    background-color: oklch(56.138% 0.09155 186.22 / 0.705);
 }
 .menu a {
   color: white;
