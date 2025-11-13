@@ -125,6 +125,11 @@ footer {
   line-height: 1.5;
 }
 
+div section input[type="text"]{
+  width: 450px;
+  height: 30px;
+}
+
 .social-icons a {
   color: #ffffff;
   font-size: 18px;
