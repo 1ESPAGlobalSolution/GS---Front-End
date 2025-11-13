@@ -55,7 +55,7 @@ let slides = [
     `,
     `
     <h2>Informações pessoais e acadêmicas</h2>
-    <p><strong>Nome: Larissa Camargo</strong></p>
+    <h3><strong>Nome: Larissa Camargo</strong></h3>
     <br>
     <p><strong>Idade:</strong> 40 anos</p>
     <p><strong>Soft Skill:</strong> Comunicativa</p>
