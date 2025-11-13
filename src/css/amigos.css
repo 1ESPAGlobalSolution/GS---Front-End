@@ -13,7 +13,7 @@ h2 {
 
 .grupo {
     display: flex;
-    justify-content: space-around; 
+    justify-content: center; 
     align-items: flex-start;
     margin-top: 20px;
     
@@ -65,13 +65,17 @@ h2 {
 }
 
 .caixaConvite{
+    position: relative;
     background-color: rgb(255, 255, 255);
-    height: 450px;
+    height: 320px;
     width: 450px;
     margin: 30px;
     border: solid 1px grey;
     border-radius: 12px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .convites {
@@ -108,7 +112,6 @@ h2 {
     font-weight: 600;
     color: rgb(49, 107, 235);
     cursor: pointer;
-    margin-top: 130px;
     border: solid 2px rgb(49, 107, 235);
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
@@ -125,14 +128,16 @@ h2 {
 }
 
 .areaAmigos{
-    height
+    height: 300px;
     width: 550px;
-    margin: 40px;
+    margin: 40px auto;
     color: #fff;
     background-color: #68ac92; 
     border-radius: 20px;
 }
 
 .usuarios{
+    padding: 5px;
+    padding-left: 9px;
     border: solid 1px #fff;
 }

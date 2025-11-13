@@ -52,3 +52,22 @@
   background-color: #9c68ac;
   transform: scale(1.1);
 }
+
+.sobreNos {
+    animation: crescer 1.5s 1;
+}
+
+@keyframes crescer{
+    0% {opacity: 0;
+    transform: translateY(30px);}
+    100% {opacity: 1;}
+}
+.tabelas {
+    animation: subindo 2s 1;
+}
+
+@keyframes subindo{
+    0% {opacity: 0;
+    transform: translateY(30px);}
+    100% {opacity: 1;}
+}
