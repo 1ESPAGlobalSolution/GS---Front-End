@@ -55,6 +55,7 @@ const profissionais = [
 const contador = localStorage.getItem("contagem");
 console.log("Contador:", contador); 
 
+/*A varivaél contador é atualizada cada vez que o usuário clica em alguma das fotos colocando o número nela, referente ao objeto no array */
 let prof = profissionais[contador]
 document.getElementById("nome").textContent = prof.nome
 document.getElementById("descricao").textContent = prof.descricao

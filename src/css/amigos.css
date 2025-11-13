@@ -13,7 +13,8 @@ h2 {
 
 .grupo {
     display: flex;
-    justify-content: center; 
+    flex-direction: row;
+    justify-content: space-between; 
     align-items: flex-start;
     margin-top: 20px;
     
@@ -47,9 +48,6 @@ h2 {
     transition: 0.3s ease-in-out;
 }
 
-.amigos:hover{
-    transform: scale(1.05);
-}
 
 .amigos h3 {
     font-size: 30px;
@@ -90,18 +88,7 @@ h2 {
     border: solid 2px rgb(49, 107, 235);
     border-radius: 30px;
     color: rgb(49, 107, 235);
-}
-
-.aceitar:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    color: #fff;
-    background-color: rgb(49, 107, 235);
     transition: 0.3s ease-in-out;
-
-}
-.aceitar:active{
-    transform: scale(1);
 }
 
 .verMais{
@@ -117,11 +104,6 @@ h2 {
     transition: 0.3s ease-in-out;
 }
 
-.verMais:hover{
-    color: #fff;
-    background-color: rgb(49, 107, 235);
-}
-
 .palavraAmigos{
     padding: 20px;
 }
@@ -129,7 +111,7 @@ h2 {
 .areaAmigos{
     height: 300px;
     width: 550px;
-    margin: 40px auto;
+    margin: 40px;
     color: #fff;
     background-color: #68ac92; 
     border-radius: 20px;

@@ -21,11 +21,11 @@
             <li><a href="src/pages/afiliados.html"> Afiliados</a></li>
         </ul>
       </nav>
-      <img src="./src/assets/imgs/banner_2.png" alt="">
+      <img class="banners" src="./src/assets/imgs/banner_2.png" alt="Profissionais de diversas áreas">
       <div class="areaBusca">
         <section> 
-          <input type="text" class="busca-input" placeholder=" Encontre profissionais por área, cidade ou habilidade..."> 
-          <button class="busca">Buscar</button> 
+          <input type="text" class="busca-input"  placeholder=" Encontre profissionais por área, cidade ou habilidade..."> 
+          <input type="button" value="Buscar"  class="busca" id="botao2"></input> 
         </section>
       </div>
     <div class="tabelas inicial">
@@ -60,11 +60,12 @@
          alt="Contador" 
          class="fotoProfissao">
   </a>
+  
 </article>
     </article>
 
     <article>
-    <!-- Adicionamos nos parametrôs das funções o nome do emprego e uma breve descrição e também a Url da página que ele deve direcionar depois de clicar no botão -->
+    <!-- Adicionamos nos parametrôs das funções o nome do emprego e uma breve descrição e também um número que será utilizado para orientaçao na pagina perfil.js -->
     <a href="#"><img onclick="popUp('Engenheira', 'Formada em Engenharia Civil. Experiência em obras sustentáveis.',4)"
     src="src/assets/imgs/PROFISSOES_5.png"
     alt="Engenheira"

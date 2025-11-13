@@ -126,9 +126,17 @@ footer {
 }
 
 div section input[type="text"]{
-  width: 450px;
-  height: 30px;
+  width: 900px;
+  height: 40px;
+  border: solid rgba(192, 182, 182, 0.726);
 }
+
+div section{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
 
 .social-icons a {
   color: #ffffff;
@@ -153,7 +161,7 @@ div section input[type="text"]{
 footer p {
   color: #ffffff;
 }
-/* Fundo escuro ao abrir o pop-up */
+
 #popUp {
   display: none;
   position: fixed;
@@ -167,10 +175,10 @@ footer p {
   z-index: 9999;
 }
 
-/* Caixa central */
+
 #popUpContent {
   background-color: #ffffff;
-  color: #222; /* 🔹 texto visível e contrastante */
+  color: #222; 
   padding: 25px 30px;
   border-radius: 12px;
   text-align: center;
@@ -179,21 +187,21 @@ footer p {
   position: relative;
 }
 
-/* Título (nome do candidato) */
+
 #popUpContent h2 {
   color: oklch(56.138% 0.09155 186.22 / 0.705);
   margin-bottom: 10px;
   font-size: 22px;
 }
 
-/* Descrição (infoCandidato) */
+
 #popUpContent p {
   color: #333; 
   font-size: 16px;
   line-height: 1.5;
 }
 
-/* Botão de fechar (X) */
+
 #closeBtn {
   position: absolute;
   top: 8px;
@@ -310,21 +318,21 @@ input[type="date"],
 input[type="submit"],
 input[type="email"],
 input[type="password"] {
-    /* Seleciona todos os inputs ao mesmo tempo */
+    
     width: 100%;
-    /* faz o input preencher todo o formulário */
+    
     padding: 5px;
-    /* espaço interno do input 5px  */
+    
     margin-top: 5px;
     margin-bottom: 10px;
-    /* Espaço de um imput para outro em cima e embaixo */
+    
     border-radius: 10px;
 }
 
 input[type="submit"] {
-    /* tira a borda do botão */
+    
     border: none;
-    /* deixa o cursor no formato de clicavél  */
+    
     cursor: pointer;
 }
 
@@ -337,13 +345,8 @@ input[type="submit"] {
     gap: 50px; 
     margin-left: 590px;
     margin-top: 20px;
+    margin-bottom: 61px;
 }
-
-
-/* TESTE
-/* TESTE
-/* TESTE
-/* TESTE */
 
 #slideshow {
   width: 400px;
@@ -378,6 +381,7 @@ input[type="submit"] {
   color: #fff;
   margin: 20px 300px 40px 0;
   display: block;
+  transition: 0.3s ease-in-out;
 }
 
 #btnMensagem {
@@ -385,4 +389,82 @@ input[type="submit"] {
     color: #fff;
     margin: 20px 0 40px 300px;
     display: block;
+    transition: 0.3s ease-in-out;
+}
+
+#botao2 {
+  color: rgb(255, 255, 255);
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color:  oklch(56.138% 0.09155 186.22 / 0.705);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.busca-input{
+  border: solid 2px oklch(56.138% 0.09155 186.22 / 0.705);
+
+}
+.banners{
+  width: 100%;
+}
+
+/* PARTE DO QUIZ */
+#resultado-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 700px;
+}
+
+
+.resultado {
+  background-color: #ffffff;
+  border: 2px solid #5fa9a3;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  text-align: center;
+  animation: 0.6s ease-in-out;
+}
+
+
+.resultado h3 {
+  color: #267c73;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+
+.perfil-nome {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+.perfil-descricao {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 25px;
+  padding: 0 10px;
+}
+
+
+.ver-mais {
+  background-color: #5fa9a3;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.ver-mais:hover {
+  background-color: #3b7d78;
+  transform: scale(1.05);
 }
